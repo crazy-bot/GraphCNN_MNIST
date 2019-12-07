@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d400b21-5582-4f4d-93b1-c3e0bdfce95d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1d400b21-5582-4f4d-93b1-c3e0bdfce95d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/new/GraphConv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new/MNISTEncoderFt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new/MNISTSuperpixel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new/accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new/loss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GraphCNN_MNIST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphCNN_MNIST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset.old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network.old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.old.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,25 +29,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UIQtqmJGuDgxEUENPx6rSDscQu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="/data/Guha/GR/code/GR19/Root/plotGraph.py" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.train">
-    <configuration name="Dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.GraphConv">
+    <configuration name="GraphConv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraphCNN_MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -41,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/GraphConv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -54,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MNISTEncoderFt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraphCNN_MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/MNISTEncoderFt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,19 +97,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="geometric_MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraphCNN_MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/handpose/Hiwi_Students/Suparna/Deep-SVDD-PyTorch/myenv/bin/python" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/GraphCNN_MNIST/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/MNISTSuperpixel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="geometric_MNIST_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraphCNN_MNIST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geometric_MNIST_copy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraphCNN_MNIST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,17 +161,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.train" />
-      <item itemvalue="Python.Dataset" />
-      <item itemvalue="Python.Network" />
+      <item itemvalue="Python.geometric_MNIST" />
+      <item itemvalue="Python.geometric_MNIST_copy" />
+      <item itemvalue="Python.MNISTEncoderFt" />
+      <item itemvalue="Python.GraphConv" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.Network" />
-        <item itemvalue="Python.Dataset" />
+        <item itemvalue="Python.GraphConv" />
+        <item itemvalue="Python.geometric_MNIST" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.geometric_MNIST_copy" />
+        <item itemvalue="Python.MNISTEncoderFt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -121,5 +201,119 @@
       <updated>1575041846066</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575578271745">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="337" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575578271745" />
+    <state x="1985" y="153" width="1615" height="1026" key="#xdebugger.evaluate" timestamp="1575743305612">
+      <screen x="1680" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1985" y="153" width="1615" height="1026" key="#xdebugger.evaluate/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743305612" />
+    <state width="932" height="466" key="DebuggerActiveHint" timestamp="1575659778043">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="932" height="466" key="DebuggerActiveHint/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575659778043" />
+    <state x="624" y="267" key="FileChooserDialogImpl" timestamp="1575586112830">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="624" y="267" key="FileChooserDialogImpl/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575586112830" />
+    <state width="1592" height="254" key="GridCell.Tab.0.bottom" timestamp="1575743400914">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="254" key="GridCell.Tab.0.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
+    <state width="1592" height="254" key="GridCell.Tab.0.center" timestamp="1575743400914">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="254" key="GridCell.Tab.0.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
+    <state width="1592" height="254" key="GridCell.Tab.0.left" timestamp="1575743400914">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="254" key="GridCell.Tab.0.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
+    <state width="1592" height="254" key="GridCell.Tab.0.right" timestamp="1575743400914">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="254" key="GridCell.Tab.0.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
+    <state width="1592" height="444" key="GridCell.Tab.1.bottom" timestamp="1575743311981">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="444" key="GridCell.Tab.1.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
+    <state width="1592" height="444" key="GridCell.Tab.1.center" timestamp="1575743311981">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="444" key="GridCell.Tab.1.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
+    <state width="1592" height="444" key="GridCell.Tab.1.left" timestamp="1575743311981">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="444" key="GridCell.Tab.1.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
+    <state width="1592" height="444" key="GridCell.Tab.1.right" timestamp="1575743311981">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="1592" height="444" key="GridCell.Tab.1.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
+    <state x="366" y="159" key="SettingsEditor" timestamp="1575380239553">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="366" y="159" key="SettingsEditor/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575380239553" />
+    <state width="807" height="527" key="XDebugger.FullValuePopup" timestamp="1575659476559">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state width="807" height="527" key="XDebugger.FullValuePopup/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575659476559" />
+    <state x="534" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1575379843949">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="534" y="366" key="com.intellij.ide.util.TipDialog/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575379843949" />
+    <state x="531" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575579760081">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="531" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575579760081" />
+    <state x="418" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575582699468">
+      <screen x="65" y="24" width="1615" height="1026" />
+    </state>
+    <state x="418" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575582699468" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geometric_MNIST_copy.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new/MNISTEncoderFt.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new/test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new/MNISTSuperpixel.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/new/GraphConv.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

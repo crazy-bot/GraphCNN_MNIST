@@ -41,12 +41,13 @@ def train(args, model, device, train_loader, optimizer, epoch):
 
 
     train_loss = train_loss/(batch_idx+1)
-    torch.save(model.state_dict(),'model.pt')
+    torch.save(model.state_dict(),'model_superpixel.pt')
     print(
         '\nTrain set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
             train_loss, correct, len(train_loader.dataset),
             100. * correct / len(train_loader.dataset)))
     return train_loss,correct
+
 
 def test(model, device, test_loader):
     model.eval()
@@ -70,6 +71,7 @@ def test(model, device, test_loader):
             test_loss, correct, len(test_loader.dataset),
                 100. * correct / len(test_loader.dataset)))
     return test_loss,correct
+
 
 def main():
     # Training settings
@@ -107,7 +109,7 @@ def main():
     model = Network.GNN()
     model.to(device)
     print(model)
-    #model.load_state_dict(torch.load('model.pt'))
+    #model.load_state_dict(torch.load('model_superpixel.pt'))
     optimizer = optim.SGD(model.parameters(), lr=args.lr, weight_decay=1e-1 )
     print('number of trainable parameters: %d' %
           np.sum([np.prod(p.size()) if p.requires_grad else 0 for p in model.parameters()]))
