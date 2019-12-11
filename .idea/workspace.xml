@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d400b21-5582-4f4d-93b1-c3e0bdfce95d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/new/GraphConv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/MNISTEncoderFt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/MNISTSuperpixel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/accuracy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/loss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GraphCNN_MNIST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraphCNN_MNIST.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset.old.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network.old.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNISTSuperpixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNISTSuperpixel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,10 +149,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.GraphConv" />
+      <item itemvalue="Python.MNISTEncoderFt" />
       <item itemvalue="Python.geometric_MNIST" />
       <item itemvalue="Python.geometric_MNIST_copy" />
-      <item itemvalue="Python.MNISTEncoderFt" />
-      <item itemvalue="Python.GraphConv" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
@@ -228,42 +216,42 @@
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
     <state width="932" height="466" key="DebuggerActiveHint/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575659778043" />
-    <state x="624" y="267" key="FileChooserDialogImpl" timestamp="1575586112830">
+    <state x="624" y="267" key="FileChooserDialogImpl" timestamp="1575902942614">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state x="624" y="267" key="FileChooserDialogImpl/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575586112830" />
-    <state width="1592" height="254" key="GridCell.Tab.0.bottom" timestamp="1575743400914">
+    <state x="624" y="267" key="FileChooserDialogImpl/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575902942614" />
+    <state width="1592" height="444" key="GridCell.Tab.0.bottom" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="254" key="GridCell.Tab.0.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
-    <state width="1592" height="254" key="GridCell.Tab.0.center" timestamp="1575743400914">
+    <state width="1592" height="444" key="GridCell.Tab.0.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.0.center" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="254" key="GridCell.Tab.0.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
-    <state width="1592" height="254" key="GridCell.Tab.0.left" timestamp="1575743400914">
+    <state width="1592" height="444" key="GridCell.Tab.0.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.0.left" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="254" key="GridCell.Tab.0.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
-    <state width="1592" height="254" key="GridCell.Tab.0.right" timestamp="1575743400914">
+    <state width="1592" height="444" key="GridCell.Tab.0.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.0.right" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="254" key="GridCell.Tab.0.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743400914" />
-    <state width="1592" height="444" key="GridCell.Tab.1.bottom" timestamp="1575743311981">
+    <state width="1592" height="444" key="GridCell.Tab.0.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.1.bottom" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="444" key="GridCell.Tab.1.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
-    <state width="1592" height="444" key="GridCell.Tab.1.center" timestamp="1575743311981">
+    <state width="1592" height="444" key="GridCell.Tab.1.bottom/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.1.center" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="444" key="GridCell.Tab.1.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
-    <state width="1592" height="444" key="GridCell.Tab.1.left" timestamp="1575743311981">
+    <state width="1592" height="444" key="GridCell.Tab.1.center/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.1.left" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="444" key="GridCell.Tab.1.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
-    <state width="1592" height="444" key="GridCell.Tab.1.right" timestamp="1575743311981">
+    <state width="1592" height="444" key="GridCell.Tab.1.left/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
+    <state width="1592" height="444" key="GridCell.Tab.1.right" timestamp="1575745122468">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state width="1592" height="444" key="GridCell.Tab.1.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575743311981" />
+    <state width="1592" height="444" key="GridCell.Tab.1.right/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575745122468" />
     <state x="366" y="159" key="SettingsEditor" timestamp="1575380239553">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
@@ -272,10 +260,10 @@
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
     <state width="807" height="527" key="XDebugger.FullValuePopup/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575659476559" />
-    <state x="534" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1575379843949">
+    <state x="534" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1575902890752">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
-    <state x="534" y="366" key="com.intellij.ide.util.TipDialog/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575379843949" />
+    <state x="534" y="366" key="com.intellij.ide.util.TipDialog/65.24.1615.1026/1680.0.1920.1200@65.24.1615.1026" timestamp="1575902890752" />
     <state x="531" y="142" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575579760081">
       <screen x="65" y="24" width="1615" height="1026" />
     </state>
@@ -289,11 +277,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/geometric_MNIST_copy.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/new/MNISTEncoderFt.py</url>
           <line>84</line>
           <option name="timeStamp" value="17" />
@@ -302,16 +285,6 @@
           <url>file://$PROJECT_DIR$/new/test.py</url>
           <line>40</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/new/MNISTSuperpixel.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/new/GraphConv.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

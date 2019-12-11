@@ -21,6 +21,7 @@ test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 d = train_dataset
 
 
+############## computes normalized graph cut sor segmentation based on distance
 def normalized_cut_2d(edge_index, pos):
     row, col = edge_index
     edge_attr = torch.norm(pos[row] - pos[col], p=2, dim=1)
@@ -30,6 +31,7 @@ def normalized_cut_2d(edge_index, pos):
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
+        ######## 𝐱′𝑖 = 𝚯𝐱𝑖 + ∑𝑗∈(𝑖) 𝐱𝑗⋅ ℎ𝚯(𝐞𝑖,𝑗)
         nn1 = nn.Sequential(nn.Linear(2, 25), nn.ReLU(), nn.Linear(25, 32))
         self.conv1 = NNConv(d.num_features, 32, nn1, aggr='mean')
 
@@ -41,16 +43,22 @@ class Net(nn.Module):
 
     def forward(self, data):
         data.x = F.elu(self.conv1(data.x, data.edge_index, data.edge_attr))
+        ######## calculate similarity between nodes
         weight = normalized_cut_2d(data.edge_index, data.pos)
+        ######### graph clustering without the need of eigenvector
         cluster = graclus(data.edge_index, weight, data.x.size(0))
         data.edge_attr = None
+        ########## Pools and coarsens a graph. All nodes within the same cluster will be represented as one node and appply transform
         data = max_pool(cluster, data, transform=transform)
 
+        ########## 2nd conv net
         data.x = F.elu(self.conv2(data.x, data.edge_index, data.edge_attr))
         weight = normalized_cut_2d(data.edge_index, data.pos)
         cluster = graclus(data.edge_index, weight, data.x.size(0))
+        ############## Max-Pools node features according to the clustering defined in cluster
         x, batch = max_pool_x(cluster, data.x, data.batch)
 
+        ############## Returns batch-wise graph-level-outputs by averaging node features across the node dimension
         x = global_mean_pool(x, batch)
         x = F.elu(self.fc1(x))
         x = F.dropout(x, training=self.training)
